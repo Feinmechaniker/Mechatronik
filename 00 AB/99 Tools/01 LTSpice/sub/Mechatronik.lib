@@ -1,0 +1,172 @@
+* Copyright © Prof. J.Grabow, AMESYS, 09/2017
+* Dieses Werk ist lizenziert unter einer Creative Commons Namensnennung-Nicht kommerziell 4.0 International Lizenz
+* Mechatronische Netzwerke
+* 
+* 08.04.21 mechatronische Kapazität (Impuls) mit Anfangsbedingung
+*
+*---------------------------------------------------------------------
+* Primärgröße Impuls
+*---------------------------------------------------------------------
+*
+* Mechatronische Kapazität (Primärgröße Impuls)
+* Parameter
+* C - Kapazitätswert
+* m - mechanische Masse
+* v - Anfangsgeschwindigkeit
+*
+.subckt C_m_p  1 2
+C1 1 2 {C} IC={v}
+.params C=m
+.ends C_m_p
+*
+*
+* Mechatronische Induktivität (Primärgröße Impuls)
+* Parameter
+* L - Induktivitätswert
+* c - mechanische Steifigkeit
+*
+.subckt L_m_p  1 2
+L1 1 2 {L} Rser={Rser}
+.params L=1/c
+.ends L_m_p
+*
+*
+* Mechatronischer Widerstand (Primärgröße Impuls)
+* Parameter
+* R - Widerstanswert
+* k - Stokes'sche Dämpferkonstante
+*
+.subckt R_m_p  1 2
+R1 1 2 {R}
+.params R=1/k
+.ends R_m_p
+
+
+
+*---------------------------------------------------------------------
+* Primärgröße Drehimpuls
+*---------------------------------------------------------------------
+*
+* Mechatronische Kapazität (Primärgröße Drehimpuls)
+* Parameter
+* C - Kapazitätswert
+* Js - Massenträgheitsmoment im Schwerpunkt
+*
+.subckt C_m_d  1 2
+C1 1 2 {C}
+.params C=Js
+.ends C_m_d
+*
+*
+* Mechatronische Induktivität (Primärgröße Drehimpuls)
+* Parameter
+* L - Induktivitätswert
+* ct - Torsionssteifigkeit
+*
+.subckt L_m_d  1 2
+L1 1 2 {L} Rser={Rser}
+.params L=1/ct
+.ends L_m_d
+*
+*
+* Mechatronischer Widerstand (Primärgröße Drehimpuls)
+* Parameter
+* R - Widerstanswert
+* ks - Stokes'sche Dämpferkonstante
+*
+.subckt R_m_d  1 2
+R1 1 2 {R}
+.params R=1/kt
+.ends R_m_d
+
+*---------------------------------------------------------------------
+* Primärgröße schwere Masse (Hydraulik)
+*---------------------------------------------------------------------
+*
+* Mechatronische Kapazität (Primärgröße schwere Masse)
+* Parameter
+* C - Kapazitätswert
+* m - schwere Masse
+*
+.subckt C_m_h  1 2
+C1 1 2 {C}
+.params C=m
+.ends C_m_h
+*
+*
+* Mechatronische Induktivität (Primärgröße schwere Masse)
+* Parameter
+* L - Induktivitätswert
+*
+.subckt L_m_h  1 2
+L1 1 2 {L} Rser={Rser}
+.params L=L
+.ends L_m_h
+*
+*
+* Mechatronischer Widerstand (Primärgröße schwere Masse)
+* Parameter
+* R - Widerstanswert
+* ks - Stokes'sche Dämpferkonstante
+*
+.subckt R_m_h  1 2
+R1 1 2 {R}
+.params R=1/ks
+.ends R_m_d
+*
+*
+*---------------------------------------------------------------------
+* spezielle Bauelemente
+*---------------------------------------------------------------------
+*
+* nichtlinearer Widerstand Type 2
+* Parameter
+* RL2 - Widerstandswert
+* n - Exponent
+*
+.subckt RL2  1 2
+R1 1 2 R=RL2*1/(PWR(V(1,2),n-1))
+.ends RL2
+*
+*
+* nichtlinearer Widerstand Type 1
+* Parameter
+* RL1 - Widerstandswert
+* n - Exponent
+*
+.subckt RL1  1 2
+R1 1 2 R=PWR(RL1,1/n)*(PWR(V(1,2),(n-1)/n))
+.ends RL2
+*
+*
+*---------------------------------------------------------------------
+* Mechatronische Wandler
+*---------------------------------------------------------------------
+*
+* Gyrator
+* Y-Parameter
+* Y12=2
+* Y11=0.00001
+* Y22=1000000000
+* Y21=2
+*
+.subckt Gyrator 1 2 3 4 
+R1 1 2 {1/Y11}
+R2 3 4 {1/Y22}
+G2 4 3 1 2 {Y21}
+G1 2 1 4 3 {Y12}
+.ends Gyrator
+*
+*
+* Transformator
+* H12=2
+* H11=0.00001
+* H22=1000000000
+* H21=2
+*
+.subckt Transformator 1 2 3 4 
+E1 20 2 3 4 {H12}
+R1 1 20 {H11}
+R3 3 4 {1/H22}
+F1 3 4 E1 {H21}	
+.ends Transformator

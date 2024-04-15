@@ -1,0 +1,26 @@
+* Copyright © Prof. J.Grabow, AMESYS, 01/2017
+* Dieses Werk ist lizenziert unter einer Creative Commons Namensnennung-Nicht kommerziell 4.0 International Lizenz
+* Mechatronische Netzwerke
+*
+*
+* 01/2017
+* Integrator (I-Glied)
+* Parameter 
+* ic - Startwert der Integration
+.subckt I-Glied  1 2
+B1 2 0 V=idt(V(1),{ic}) 
+.ends I-Glied
+
+* 01/2017
+* Differentierer (D-Glied)
+* Parameter keine
+.subckt D-Glied  1 2
+B1 2 0 V=ddt(V(1))
+.ends D-Glied
+
+* 01/2017
+* Verstärker (P-Glied)
+* Kp - Versärkung 
+.subckt P-Glied  1 2
+B1 2 0 V=V(1)*Kp 
+.ends P-Glied

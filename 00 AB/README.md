@@ -1,7 +1,7 @@
 # Mechatronic
 Worksheet for Mechatronics Systems
 
-[Weiterführenden Informationen unter:](https://www.amesys.de)
+[Weiterführenden Informationen unter: AMESYS](https://www.amesys.de)
 
 |Nr.  |Beschreibung   |Bemerkung   |   |
 |---|---|---|---|

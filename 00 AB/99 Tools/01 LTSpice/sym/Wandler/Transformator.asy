@@ -1,0 +1,34 @@
+Version 4
+SymbolType CELL
+LINE Normal -64 -48 -112 -48
+LINE Normal -64 80 -112 80
+LINE Normal -52 53 -52 -19
+LINE Normal -47 53 -52 53
+LINE Normal -46 -19 -52 -19
+LINE Normal 52 54 52 -19
+LINE Normal 48 54 52 54
+LINE Normal 48 -19 52 -19
+LINE Normal 64 80 112 80
+LINE Normal 64 -48 112 -48
+RECTANGLE Normal 64 95 -64 -64
+TEXT -47 -2 Left 2 H11
+TEXT 6 -2 Left 2 H12
+TEXT -47 36 Left 2 H21
+TEXT 7 36 Left 2 H22
+WINDOW 38 5 110 Center 2
+SYMATTR SpiceModel Transformator
+SYMATTR Prefix x
+SYMATTR Description Beschreibung
+SYMATTR ModelFile Mechatronik.lib
+PIN -112 -48 BOTTOM 8
+PINATTR PinName 1
+PINATTR SpiceOrder 1
+PIN -112 80 BOTTOM 8
+PINATTR PinName 2
+PINATTR SpiceOrder 2
+PIN 112 -48 BOTTOM 8
+PINATTR PinName 3
+PINATTR SpiceOrder 3
+PIN 112 80 BOTTOM 8
+PINATTR PinName 4
+PINATTR SpiceOrder 4

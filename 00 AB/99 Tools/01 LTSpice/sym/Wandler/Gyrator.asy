@@ -1,0 +1,34 @@
+Version 4
+SymbolType CELL
+LINE Normal -64 -48 -112 -48
+LINE Normal -64 80 -112 80
+LINE Normal 64 -48 113 -48
+LINE Normal 64 80 113 80
+LINE Normal -51 52 -51 -20
+LINE Normal -46 52 -51 52
+LINE Normal -45 -20 -51 -20
+LINE Normal 53 53 53 -20
+LINE Normal 49 53 53 53
+LINE Normal 49 -20 53 -20
+RECTANGLE Normal 64 96 -64 -64
+TEXT -46 -3 Left 2 Y11
+TEXT 7 -3 Left 2 Y12
+TEXT -46 35 Left 2 Y21
+TEXT 8 35 Left 2 Y22
+WINDOW 38 1 117 Center 2
+SYMATTR SpiceModel Gyrator
+SYMATTR Prefix x
+SYMATTR Description Beschreibung
+SYMATTR ModelFile Mechatronik.lib
+PIN -112 -48 BOTTOM 8
+PINATTR PinName 1
+PINATTR SpiceOrder 1
+PIN -112 80 BOTTOM 8
+PINATTR PinName 2
+PINATTR SpiceOrder 2
+PIN 112 -48 BOTTOM 8
+PINATTR PinName 3
+PINATTR SpiceOrder 3
+PIN 112 80 BOTTOM 8
+PINATTR PinName 4
+PINATTR SpiceOrder 4
