@@ -1,0 +1,22 @@
+Version 4
+SymbolType CELL
+LINE Normal 16 40 16 48
+LINE Normal 0 32 16 40
+LINE Normal 32 16 0 32
+LINE Normal 0 0 32 16
+LINE Normal 32 -16 0 0
+LINE Normal 16 -32 16 -24
+LINE Normal 16 -24 32 -16
+LINE Normal -6 0 -16 0
+SYMATTR Prefix X
+SYMATTR SpiceModel PRes
+SYMATTR ModelFile Math.lib
+PIN 16 -32 NONE 0
+PINATTR PinName A
+PINATTR SpiceOrder 1
+PIN 16 48 NONE 0
+PINATTR PinName B
+PINATTR SpiceOrder 2
+PIN -16 0 NONE 8
+PINATTR PinName RI
+PINATTR SpiceOrder 3
