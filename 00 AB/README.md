@@ -18,5 +18,5 @@ Worksheet for Mechatronics Systems
 |AB_12|Basissysteme, Suszeptibilitäten, Dissipation	   |Grundlagen	|Wandler   |
 |AB_13|Maxwell-Rad, Mechanik, Rotation/Translation	   |Aufgabe	    |Wandler   |
 |AB_14|Wurfparabel, Mechanik, Translation	           |Aufgabe  	|Mechanik  |
-
+|AB_15|Katamaran, Mechanik, Translation und Rotation   |Aufgabe  	|Mechanik  |
 

@@ -6,5 +6,5 @@ LTSpice Solutions for the worksheets
 |Nr.  |Beschreibung   |Bemerkung   |   |
 |---|---|---|---|
 |LAB_14|Wurfparabel, Mechanik, Translation	               |Aufgabe	    |Mechanik   |
-
+|LAB_15|Katamaran, Mechanik, Translation und Rotation      |Aufgabe	    |Mechanik   |
 
