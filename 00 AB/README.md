@@ -19,5 +19,6 @@ Worksheet for Mechatronics Systems
 |AB_13|Maxwell-Rad, Mechanik, Rotation/Translation	   |Aufgabe	    |Wandler   |
 |AB_14|Wurfparabel, Mechanik, Translation	           |Aufgabe  	|Mechanik  |
 |AB_15|Katamaran, Mechanik, Translation und Rotation   |Aufgabe  	|Mechanik  |
+|AB_16|Wassertank, Mechanik, Hydraulik                 |Aufgabe  	|Hydraulik |
 |AB_17|Gleichstrommotor, Wandler                       |Aufgabe	    |Wandler   |
 

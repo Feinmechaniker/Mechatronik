@@ -7,5 +7,6 @@ LTSpice Solutions for the worksheets
 |---|---|---|---|
 |LAB_14|Wurfparabel, Mechanik, Translation	               |Aufgabe	    |Mechanik   |
 |LAB_15|Katamaran, Mechanik, Translation und Rotation      |Aufgabe	    |Mechanik   |
+|LAB_16|Wassertank, Mechanik, Hydraulik                    |Aufgabe  	|Hydraulik  |
 |LAB_17|Gleichstrommotor, Wandler                          |Aufgabe	    |Wandler    |
 
