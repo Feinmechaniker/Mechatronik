@@ -9,4 +9,4 @@ LTSpice Solutions for the worksheets
 |LAB_15|Katamaran, Mechanik, Translation und Rotation      |Aufgabe	    |Mechanik   |
 |LAB_16|Wassertank, Mechanik, Hydraulik                    |Aufgabe  	|Hydraulik  |
 |LAB_17|Gleichstrommotor, Wandler                          |Aufgabe	    |Wandler    |
-
+|LAB_18|Peltier-Element, Wandler                           |Aufgabe	    |Wandler    |
