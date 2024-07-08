@@ -6,5 +6,5 @@ Python Scrips
 |Nr.  |Beschreibung   |Bemerkung   |   |
 |---|---|---|---|
 |LAB_17|Gleichstrommotor, Wandler                       |Aufgabe	    |Wandler   |
-|LAB_19|Nebenschlussmotor, Wandler                       |Aufgabe	    |Wandler   |
+|LAB_19|Reihenschlussmotor, Wandler                       |Aufgabe	    |Wandler   |
 
