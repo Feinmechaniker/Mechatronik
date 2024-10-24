@@ -22,4 +22,5 @@ Worksheet for Mechatronics Systems
 |AB_16|Wassertank, Mechanik, Hydraulik                 |Aufgabe  	|Hydraulik |
 |AB_17|Gleichstrommotor, Wandler                       |Aufgabe	    |Wandler   |
 |AB_18|Peltier-Element, Wandler                        |Aufgabe	    |Wandler   |
-
+|AB_21|Kapazitätsdiode, Energie und Co-Energie         |Aufgabe	    |Basics    |
+ 
