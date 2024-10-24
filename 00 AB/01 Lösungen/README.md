@@ -19,3 +19,4 @@ Solutions for the worksheets
 |LAB_16|Wassertank, Mechanik, Hydraulik                    |Aufgabe  	|Hydraulik  |
 |LAB_17|Gleichstrommotor, Wandler                          |Aufgabe	    |Wandler    |
 |LAB_18|Peltier-Element, Wandler                           |Aufgabe	    |Wandler    |
+|LAB_21|Kapazitätsdiode, Energie und Co-Energie            |Aufgabe	    |Basics     |
