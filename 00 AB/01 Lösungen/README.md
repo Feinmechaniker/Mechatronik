@@ -20,3 +20,4 @@ Solutions for the worksheets
 |LAB_17|Gleichstrommotor, Wandler                          |Aufgabe	    |Wandler    |
 |LAB_18|Peltier-Element, Wandler                           |Aufgabe	    |Wandler    |
 |LAB_21|Kapazitätsdiode, Energie und Co-Energie            |Aufgabe	    |Basics     |
+|LAB_22|Transformator, Wandler                             |Aufgabe	    |Wandler    |
