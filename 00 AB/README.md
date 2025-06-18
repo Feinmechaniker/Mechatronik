@@ -3,7 +3,7 @@ Worksheet for Mechatronics Systems
 
 [Weiterführenden Informationen unter: AMESYS](https://www.amesys.de)
 
-|Nr.  |Beschreibung   |Bemerkung   |   |
+|Nr.  |Beschreibung                                    |Bemerkung   |Type      |
 |---|---|---|---|
 |AB_01|Multi-Domän-Systeme auf einen Blick             |Grundlagen  |Basics    |
 |AB_02|Mechatronischer Wandler (Plattenkondensator)    |Aufgabe     |Wandler   |
@@ -24,3 +24,5 @@ Worksheet for Mechatronics Systems
 |AB_18|Peltier-Element, Wandler                        |Aufgabe	    |Wandler   |
 |AB_21|Kapazitätsdiode, Energie und Co-Energie         |Aufgabe	    |Basics    |
 |AB_22|gekoppelte Wandler, (Transformator)             |Aufgabe	    |Wandler   | 
+|AB_23|Varianten einer Systemkopplung  				   |Grundlagen	|Wandler   | 
+|AB_24|Koppungszusammenhänge an Wandlern			   |Grundlagen	|Wandler   | 
