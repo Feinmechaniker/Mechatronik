@@ -20,4 +20,4 @@ Micro-Lecture
 |ML_012|Primärgrößen – Definition und Eigenschaften      |Grundlagen  |Basics    |
 |ML_013|Sekundärgrößen – Definition und Eigenschaften    |Grundlagen  |Basics    |
 |ML_014|Wandler – Hydraulikbehälter                      |Grundlagen  |Basics    |
-|ML_015|Wandler – zwei Wassertangs                       |Grundlagen  |Basics    |
+|ML_015|Wandler – zwei Wassertanks                       |Grundlagen  |Basics    |
