@@ -17,5 +17,7 @@ Micro-Lecture
 |ML_009|Punkteigenschaften      		                 |Grundlagen  |Basics    |
 |ML_010|GIBBS'sche Fundamentalform mit Punkeigenschaften |Grundlagen  |Basics    |
 |ML_011|Rechenregeln mit extensiven und intensiven Größen|Grundlagen  |Basics    |
-|ML_012|Primärgrößen – Definition und Eigenschaften|Grundlagen  |Basics    |
-|ML_013|Sekundärgrößen – Definition und Eigenschaften|Grundlagen  |Basics    |
+|ML_012|Primärgrößen – Definition und Eigenschaften      |Grundlagen  |Basics    |
+|ML_013|Sekundärgrößen – Definition und Eigenschaften    |Grundlagen  |Basics    |
+|ML_014|Wandler – Hydraulikbehälter                      |Grundlagen  |Basics    |
+|ML_015|Wandler – zwei Wassertangs                       |Grundlagen  |Basics    |
